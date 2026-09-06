@@ -35,6 +35,9 @@
             bun
             self.formatter.${system}
           ];
+          shellHook = ''
+            bun add -g --ignore-scripts @earendil-works/pi-coding-agent
+          '';
         };
       }
     );
