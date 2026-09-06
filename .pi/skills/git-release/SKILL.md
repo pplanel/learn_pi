@@ -17,9 +17,9 @@ This skill guides the release process for this repository.
    ```
 
 2. **Collect commits**:
-   Run the helper script to list commits since last tag:
+   Run the helper script to list commits since the last tag:
    ```bash
-   ./scripts/get-commits.sh
+   .pi/skills/git-release/scripts/get-commits.sh
    ```
 
 3. **Categorize changelog items**:
